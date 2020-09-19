@@ -7,12 +7,12 @@
     <title>
         ACES DYPCOE
     </title>
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href='https://fonts.googleapis.com/css?family=Encode Sans Expanded' rel='stylesheet'>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/mainpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
 </head>
 <body>
     <header class="text-gray-800 body-font">
@@ -36,11 +36,11 @@
         </div>
       </header>
       <!------>
-      <section id="aboutus" class="text-gray-700 body-font">
-        <div class="container px-5 py-24 mx-auto">
+      <section id="aboutus" class="text-gray-700 body-font aos-init aos-animate">
+        <div class="container px-5 py-24 mx-auto aos-init aos-animate" data-aos="zoom-in">
           <div class="flex flex-col text-center w-full mb-20">
-            <h2 class="text-xs text-purple-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
+            <h2 class="text-xs text-purple-500 tracking-widest font-medium title-font mb-1">Hello All</h2>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">ACES DYPCOE, Akurdi</h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
           </div>
           <div class="flex flex-wrap">
@@ -85,8 +85,8 @@
         </div>
       </section>
       <!------->
-      <section id="events" class="text-gray-700 body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
+      <section id="events" class="text-gray-700 body-font overflow-hidden aos-init aos-animate">
+        <div class="container px-5 py-24 mx-auto aos-init aos-animate" data-aos="zoom-in">
           <div class="-my-8">
             <div class="py-8 flex flex-wrap md:flex-no-wrap">
               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
@@ -140,7 +140,7 @@
         </div>
       </section>
       <!-------->
-      <section id="team" class="text-gray-700 body-font">
+      <section id="team" class="text-gray-700 body-font" data-aos="fade-down">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
@@ -307,4 +307,11 @@
           </div>
         </div>
       </footer>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+  duration: 1200,
+})
+      </script>    
 </body>
+</html>

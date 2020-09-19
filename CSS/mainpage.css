@@ -1,0 +1,19 @@
+.footer{
+    background-color:  #e0ccff;
+}
+.name{
+    background: 	 #0d001a;
+    padding: 1%;
+}
+a:hover{
+    color:#0066ff;
+}
+.fa-google-plus:hover,.fa-youtube:hover{
+    color:red;
+}
+.fa-linkedin:hover{
+    color: #0040ff;
+}
+.fa-twitter:hover{
+    color: #33ccff;
+}

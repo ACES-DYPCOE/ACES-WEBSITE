@@ -5,4 +5,4 @@ ACES-Official-Website
 
 ## Contibutors 2020
 [Manasi Wader](https://github.com/WaderManasi)
-[Prajakta Mane](https://github.com/maneprajakta)
+<br>[Prajakta Mane](https://github.com/maneprajakta)

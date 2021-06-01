@@ -14,7 +14,7 @@
 		
 </table>
       
-### Contributors :pray: :dizzy:
+### Contributors :dizzy:
 ![4](https://contributors-img.web.app/image?repo=ACES-DYPCOE/ACES-WEBSITE)
 
 **To contibute first raise an issue ,we don't accept direct pull requests 😀**

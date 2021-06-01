@@ -6,8 +6,8 @@
 ### Creators :zap::dizzy:
 <table>
 		<tr>
-			<td align="center"><img src="https://ibb.co/yk099FM"  width=100px;"><br /><sub><b>Manasi Wader</b></sub><br/><a href="https://github.com/WaderManasi"></a></td>
-		   <td align="center">[]("https://ibb.co/WpQW01p")<img src="https://ibb.co/WpQW01p"  width=100px;"><br /><sub><b>Prajakta Mane</b></sub><br/><a href="https://github.com/maneprajakta"></a></td>
+			<td align="center"><img src=""  width=100px;"><br /><sub><b>Manasi Wader</b></sub><br/><a href="https://github.com/WaderManasi"></a></td>
+		   <td align="center"><img src="https://pasteboard.co/K4AcUbi.jpg"  width=100px;"><br /><sub><b>Prajakta Mane</b></sub><br/><a href="https://github.com/maneprajakta"></a></td>
 		</td>			
 		</tr>
 		

@@ -7,7 +7,7 @@
 <table>
 		<tr>
 			<td align="center"><img src=""  width=100px;"><br /><sub><b>Manasi Wader</b></sub><br/><a href="https://github.com/WaderManasi"></a></td>
-		   <td align="center"><img src="https://pasteboard.co/K4AcUbi.jpg"  width=100px;"><br /><sub><b>Prajakta Mane</b></sub><br/><a href="https://github.com/maneprajakta"></a></td>
+		   <td align="center"><img src="https://pasteboard.co/K4AcUbi.jpg"  height=100px width=100px;"><br /><sub><b>Prajakta Mane</b></sub><br/><a href="https://github.com/maneprajakta"></a></td>
 		</td>			
 		</tr>
 		

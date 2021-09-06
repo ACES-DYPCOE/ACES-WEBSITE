@@ -13,7 +13,13 @@
 		</tr>
 		
 </table>
-      
+  
+### To Do 🎯
+- [ ] Reduce image size by compressing them
+- [ ] Updating faculty details
+- [ ] Adding a previous team section on website
+- [ ] Adding onging event section on website
+  
 ### Contributors :dizzy:
 ![4](https://contributors-img.web.app/image?repo=ACES-DYPCOE/ACES-WEBSITE)
 

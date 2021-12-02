@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Association of Computer Engineering Students-DYPCOE</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1,maximum-scale=1" />
+    <!--------Title logo------------>
+    <link rel="shortcut icon" href="./IMAGES/aceslogo_w.png" type="image/png">
+    <link rel="stylesheet" href="./CSS/mainpage1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./JS/mainpage1.js"></script>
+    <link rel="stylesheet" href="./CSS/new.scss">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Kotta One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- icon links -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+</head>
+
+<body onload="myFunction()" style="overflow-x: hidden;margin: 0px;padding: 0px;">
+
+    <!------------Preloader animation------------>
+    <div id="loader-wrapper" style="text-align: center;">
+        <svg width="100" height="100" viewBox="0 0 300 300">
+      <defs>
+        <linearGradient id="gradient-fill" gradientUnits="userSpaceOnUse" x1="0" y1="300" x2="300" y2="0">
+          <stop offset="0%">
+            <animate attributeName="stop-color" values="#00E06B;#CB0255;#00E06B" dur="5s" repeatCount="indefinite" />
+          </stop>
+          <stop offset="100%">
+            <animate attributeName="stop-color" values="#04AFC8;#8904C5;#04AFC8" dur="8s" repeatCount="indefinite" />
+          </stop>
+        </linearGradient>
+        <clipPath id="clip">
+          <rect class="square s1" x="0" y="0" rx="12" ry="12" height="90" width="90"></rect>
+          <rect class="square s2" x="100" y="0" rx="12" ry="12" height="90" width="90"></rect>
+          <rect class="square s3" x="200" y="0" rx="12" ry="12" height="90" width="90"></rect>
+          <rect class="square s4" x="0" y="100" rx="12" ry="12" height="90" width="90"></rect>
+          <rect class="square s5" x="200" y="100" rx="12" ry="12" height="90" width="90"></rect>
+          <rect class="square s6" x="0" y="200" rx="12" ry="12" height="90" width="90"></rect>
+          <rect class="square s7" x="100" y="200" rx="12" ry="12" height="90" width="90"></rect>
+        </clipPath>
+      </defs>
+      <rect class="gradient" clip-path="url('#clip')" height="300" width="300"></rect>
+    </svg>
+        <footer class="down">
+            <h3 style="font-family: 'Raleway';text-indent: left;"></h3>
+        </footer>
+    </div>
+    <!--------end of preloader-->
+
+    <div id="myDiv" style="display: none;">
+        <!----ALL SET-->
+        <!--------------------------------------Responsive NAVBAR -------------------->
+        <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation" style="padding-bottom:0% ;background: #00284d;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle x collapsed" data-toggle="collapse" data-target="#navbar-collapse-x">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+                <a class="navbar-brand" href="./index.html"><img style="float:right;height: 2em;width: 2em;position: relative;" src="./IMAGES/aceslogo_w.png"></a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-x">
+                <ul class="nav navbar-nav navbar-right">
+                    <li data-toggle="collapse" data-target="#navbar-collapse.in"><a href="#">Home</a></li>
+                    <li data-toggle="collapse" data-target="#navbar-collapse.in"><a href="#team">Core Team</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Teams <b class="caret"></b></a>
+                        <ul class="dropdown-menu" style="font-family: 'Raleway';">
+                            <li><a href="./HTML/technical_team.html">Technical Team</a></li>
+                            <li><a href="./HTML/cultural_team.html">Cultural Team</a></li>
+                            <li><a href="./HTML/sports_team.html">Sports Team</a></li>
+                            <li><a href="./HTML/web_team.html">Web & Editing Team</a></li>
+                            <li><a href="./HTML/sponsorship_temp.html">Publicity & Sponsorship Team</a></li>
+                            <li><a href="./HTML/event_management.html">Event Management Team</a></li>
+                        </ul>
+                    </li>
+                    <li data-toggle="collapse" data-target="#navbar-collapse.in"><a href="./HTML/events.html">Events</a></li>
+                    <li data-toggle="collapse" data-target="#navbar-collapse.in"><a href="./HTML/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- .navbar-collapse -->
+        </nav>
+        <!-----------------------end of NAVBAR-------------------------------->
+
+
+        <!---Below navigation bar-->
+        <!---------------Actual content-----------------About us--------------->
+        <h1 class="heading-name text-center" style="margin-top:7.5%;color:#660033;font-weight:600;font-family: Raleway;background: white;padding: 25px;" class="text-center">
+            <!-- Events at DYPCOE -->
+            Association of Computer Engineering Students (ACES)
+        </h1>
+        <!--section class="horizontal-scroll">
+      <div class="item"><img src="./IMAGES/technical/aces-team.JPG" /></div>
+      <div class="item"><img src="./IMAGES/cultural/cul-1.jpg" /></div>
+      <div class="item"><img src="./IMAGES/Sports/Copy of Untitled.png" /></div>
+      <div class="item"><img src="./IMAGES/Sports/sports3.jpeg" /></div>
+      <div class="item"><img src="./IMAGES/teachers_day/cul-4.jpg" /></div>
+    </section-->
+        <div class="head "><br>
+            <h3 class="heading-name1 container-fluid  text-center detail" style="color:#00284d;font-weight:400;font-family: 'Poppins';">
+                Dr. D. Y. Patil Pratishthan's, D. Y. Patil College of Engineering, Akurdi.
+            </h3>
+            <h3 class="heading-name1 text-center container-fluid" style="color:#00284d;font-weight:600;font-family: Raleway;margin-top: 1%;" class="text-center">
+                <!-- Events at DYPCOE -->
+                Department of Computer Engineering
+            </h3>
+        </div>
+
+        <!--end of jumbotron-->
+
+        <!----------------------Image  college added parallax-1------------------->
+        <section class="module parallax parallax-1">
+            <div class="container text-center">
+
+            </div>
+        </section>
+
+        <!---------------Actual content-----------------hod+shanti ma'am +principal sir---------------------------------->
+        <h1 class="heading-name text-center pt-5 pb-5 mt-5" style="color:#660033;font-weight:600;font-family: Raleway;">
+            Our Moto : <span style="font-family: 'Kotta One';color:#00284d">"Knowledge is Power,Union is Strength!"</span>
+        </h1>
+        <br>
+        <section id="events" class="module content" style="background: #e8ebec;">
+            <section class="text-gray-700 body-font">
+                <p style="font-family: 'Poppins';font-size: medium;font-weight: 300;" class="heading-name1 container text-justify-center">
+                    <br>Association of Computer Engineering Students (ACES) is a Students' Club of <b><a style="color:#00284d"
+              target="_blank"
+              href="https://www.facebook.com/Dept-of-Computer-Engineering-DypcoeAkurdi-Pune-315118802560238">Computer
+              Engineering Department, DYPCOE</a></b>. This club ensures active participation of students and conduction of various <b>Technical</b> & <b>Cultural</b> events with strong & enthusiastic Management Team.
+                </p>
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <!---->
+                        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                            <!--principal-->
+                            <div class="h-full text-center">
+                                <img alt="testimonial" class="mb-8 object-cover object-center rounded-full inline-block " src="IMAGES/faculty/principal.png">
+
+                                <h2 style="color:#660033;font-weight:600;font-size:x-large;font-family:Poppins;">Dr. Vijay M. Wadhai
+                                </h2>
+                                <div class="container text-center snip1515 icons">
+                                    <a href="https://www.linkedin.com/in/vijaywadhai/" target="_blank"><i class="fa fa-linkedin"
+                      aria-hidden="true"></i></a>
+                                    <a href="https://twitter.com/wadhai_vijay" target="_blank"><i class="fa fa-twitter"
+                      aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/vijay.wadhai.3" target="_blank"><i class="fa fa-facebook"
+                      aria-hidden="true"></i></a>
+                                </div>
+                                <p class="leading-relaxed" style="font-family: Poppins;">Principal, D. Y. Patil College of Engineering, Akurdi, Pune.</p>
+                                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                            <div class="h-full text-center">
+                                <img alt="testimonial" class=" mb-8 object-cover object-center rounded-full inline-block " src="IMAGES/faculty/hod.jpg">
+                                <h2 style="color:#660033;font-weight:600;font-size:x-large;font-family:Poppins;">Dr. Madhuri A. Potey
+                                </h2>
+                                <div class="container text-center snip1515 icons">
+                                    <a href="https://www.linkedin.com/in/mapotey/" target="_blank"><i
+                      class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                                <p class="leading-relaxed" style="font-family: Poppins;">HOD Computer Engineering Department, DYPCOE Akurdi, Pune.</p>
+
+                                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/3 lg:mb-0 p-4">
+                            <div class="h-full text-center">
+                                <img alt="testimonial" class=" mb-8 object-cover object-center rounded-full inline-block " src="IMAGES/faculty/shanti_mam.png">
+                                <h2 style="color:#660033;font-weight:600;font-size:x-large;font-family:Poppins;">Mrs. Shanthi Guru</h2>
+                                <div class="container text-center snip1515 icons">
+                                    <a href="https://www.linkedin.com/in/shanthi-guru-999b6188/" target="_blank"><i class="fa fa-linkedin"
+                      aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/shanti.guru.7" target="_blank"><i class="fa fa-facebook"
+                      aria-hidden="true"></i></a>
+                                </div>
+                                <p class="leading-relaxed" style="font-family: Poppins;">Faculty Co-ordinator, ACES, DYPCOE Akurdi, Pune.
+                                </p>
+                                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------------------------------------------head faculties end-->
+                <br>
+                <h1 class="heading-name text-center" style="color:#660033;font-weight:600;font-family: Raleway;background: white;padding: 28px;" class="text-center">
+                    <!------------------------------------------------------------------------- Events at DYPCOE -->
+                    Events at ACES-DYPCOE
+                </h1>
+                <br>
+                <div class="container event text-center" style="background: #e8ebec;">
+                    <section class="cards">
+                        <article class="vertical card" style="background-color: white;">
+                            <img class="card__img" src="IMAGES/Sports/sports3.jpeg" class="card__image">
+                            <div class="card__content">
+                                <div class="card__type">Sports</div>
+                                <div class="card__title">
+                                    Inter-College Competitions
+                                </div>
+                                <div class="card__excerpt">
+                                    A sports fest is one that that is primarily concerned with bringing out the physical side of the students who are generally into exercising only their brains during other times !
+                                </div>
+                            </div>
+                        </article>
+                        <article class="reverse-horizontal card" style="background-color: white;">
+                            <img class="card__img" src="IMAGES/technical/tech_wizard.jpeg" class="card__image">
+                            <div class="card__content">
+                                <div class="card__type">Technical</div>
+                                <div class="card__title">
+                                    Tech Wizard
+                                </div>
+                                <div class="card__excerpt">
+                                    Tech-Wizard is a Inter-College Technical Event Organinised under TANTROTSAV ,which is College Grand-FEST conducted every year.Involving Brain storming Program Solving Questions !
+                                </div>
+                            </div>
+                        </article>
+                        <article class="horizontal card" style="background-color: white;">
+                            <img class="card__img" src="IMAGES/cultural/cultura.jpg" class="card__image">
+                            <div class="card__content">
+                                <div class="card__type">Cultural</div>
+                                <div class="card__title">
+                                    Enthusiastic Moments
+                                </div>
+                                <div class="card__excerpt">
+                                    Cultural team of our college works for maintaining healthy environment because in college we come to explore our passion. Organises various events like Annual day,Singing Comptetion,Dance,etc.
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <br>
+                <p style="margin-top: 1.5%;" class="text-justify-center text-center">
+                    <a href="./HTML/events.html"><button style="font-family: Poppins;" type="button"
+              class="btn btn-lg btn-primary">Click Here To View More <i class="fa fa-arrow-circle-right"
+                aria-hidden="true"></i></i></button>
+          </a>
+                </p>
+                <br>
+            </section>
+        </section>
+
+        <!-------------------------Image group ---next parallax------------------------->
+        <section class="module parallax parallax-2">
+
+        </section>
+
+        <!-------------------Actual content---------about aces core team-------------->
+        <!--heading-->
+        <h1 id="team" class="heading-name text-center" style="color:#660033;font-weight:600;font-family: Raleway;background: white;padding: 28px;" class="text-center">
+            <!-- Events at DYPCOE -->
+            Faculty Co-ordinators at ACES-DYPCOE
+        </h1>
+        <section class="module content text-center" style="background: #e8ebec;overflow: hidden;overflow-x: hidden;margin: 0px;">
+            <!--Art Gallery Section-->
+            <div class="container text-center artt2">
+                <div class="text-center row">
+                    <div class="col-md-6 col-12">
+                        <figure class="snip1515 ">
+                            <div class="profile-image"><img src="./IMAGES/faculty/bhagyshrimam.jpg" alt="sample47" /></div>
+                            <figcaption>
+                                <h3>Bhagyashree Tingare</h3>
+                                <h4>Faculty Co-ordinator</h4>
+                                <div class="container text-center snip1515 icons">
+                                    <a href="https://www.linkedin.com/in/bhagyashree-tingare-88b009195/" target="_blank"><i
+                      class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="mailto:batingare@dypcoeakurdi.ac.in" target="_blank"><i class="fa fa-envelope"
+                      aria-hidden="true"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <figure class="snip1515">
+                            <div class="profile-image"><img src="./IMAGES/faculty/vishakhamam.jpg " alt="sample47" /></div>
+                            <figcaption>
+                                <h3>Vishakha Metre</h3>
+                                <h4>Faculty Co-ordinator</h4>
+                                <div class="container text-center snip1515 icons">
+                                    <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="mailto:vametre@dypcoeakurdi.ac.in" target="_blank"><i class="fa fa-envelope"
+                      aria-hidden="true"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!--end of faculty advisors-->
+            <!--heading-CORE TEAM-->
+        </section>
+
+        <h1 class="heading-name text-center" style="color:#660033;font-weight:600;font-family: Raleway;background: white;padding: 28px;">
+            <!-- Events at DYPCOE -->
+            Core Team of ACES-DYPCOE
+        </h1>
+        <!--end of content------------------------->
+        <!----------------------------------------------------------------------Core Team CARDSS--------------------->
+        <div class="container-fluid text-center" style="margin-bottom: 2%;background: #e8ebec;overflow-x: hidden;margin-left: 0px;">
+            <div class="container">
+                <div class="row text-center ">
+
+                    <div class="col-3 col-md-3">
+                        <figure class="snip1515 ">
+                            <div class="profile-image"><img src="./IMAGES/team/aneerban.jpg" alt="sample47" /></div>
+                            <figcaption>
+                                <h3>Aneerban Chowdhary</h3>
+                                <h4>President</h4>
+                                <div class="icons">
+                                    <a href="https://www.linkedin.com/in/aneerban-chowdhury-00733a194/" target="_blank"><i
+                      class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="mailto:aneerban10@gmail.com" target="_blank"><i class="fa fa-envelope"
+                      aria-hidden="true"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-3 col-md-3">
+                        <figure class="snip1515">
+                            <div class="profile-image"><img src="./IMAGES/team/anushka.jpg" alt="sample47" /></div>
+                            <figcaption>
+                                <h3>Anushka Deshpande</h3>
+                                <h4>President</h4>
+                                <div class="icons">
+                                    <a href="#">
+                                        <a href="https://www.linkedin.com/in/anushka-deshpande-79059217b/" target="_blank"><i
+                        class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="mailto:anushkadeshpande153@gmail.com" target="_blank"><i class="fa fa-envelope"
+                        aria-hidden="true"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-3 col-md-3">
+                        <figure class="snip1515">
+                            <div class="profile-image"><img src="./IMAGES/team/ankan1.jpg" alt="sample47" /></div>
+                            <figcaption>
+                                <h3>Ankan Biswas</h3>
+                                <h4>Vice President</h4>
+                                <div class="icons">
+                                    <a href="https://www.linkedin.com/in/ankan-biswas-22990153/" target="_blank"><i class="fa fa-linkedin"
+                      aria-hidden="true"></i></a>
+                                    <a href="mailto:ankan.rana@gmail.com" target="_blank"><i class="fa fa-envelope"
+                      aria-hidden="true"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-3 col-md-3">
+                        <figure class="snip1515">
+                            <div class="profile-image"><img src="./IMAGES/team/arbaz.jpg" alt="sample47" /></div>
+                            <figcaption>
+                                <h3>Arbaaz Shaikh</h3>
+                                <h4>Treasurer</h4>
+                                <div class="icons">
+                                    <a href="#">
+                                        <a href="https://www.linkedin.com/in/arbaaz-shaikh-870086183" target="_blank"><i
+                        class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="mailto:shaikharbaj11012001@gmail.com" target="_blank"><i class="fa fa-envelope"
+                        aria-hidden="true"></i></a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!----------------2nd row------------>
+                    <div class="row container text-center row3">
+                        <div class="col-3 col-md-3">
+                            <figure class="snip1515 ">
+                                <div class="profile-image"><img src="./IMAGES/team/arjun1.jpg" alt="sample47" /></div>
+                                <figcaption>
+                                    <h3>Arjun Singh</h3>
+                                    <h4>Technical Secretary</h4>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <a href="https://www.linkedin.com/in/arjun-singh-788280198/" target="_blank"><i
+                          class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="mailto:arjunsingh413122@gmail.com" target="_blank"><i class="fa fa-envelope"
+                          aria-hidden="true"></i></a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-3 col-md-3">
+                            <figure class="snip1515 ">
+                                <div class="profile-image"><img src="./IMAGES/team/prajakta.jpg" alt="prajakta" /></div>
+                                <figcaption>
+                                    <h3>Prajakta Mane</h3>
+                                    <h4>Technical Secretary</h4>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <a href="https://www.linkedin.com/in/maneprajakta/" target="_blank"><i class="fa fa-linkedin"
+                          aria-hidden="true"></i></a>
+                                            <a href="mailto:prajakta916mane1@gmail.com" target="_blank"><i class="fa fa-envelope"
+                          aria-hidden="true"></i></a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-3 col-md-3">
+                            <figure class="snip1515 ">
+                                <div class="profile-image"><img src="./IMAGES/team/abhishek.jpg" alt="sample47" /></div>
+                                <figcaption>
+                                    <h3>Abhishek Shukla</h3>
+                                    <h4>Cultural Secretary</h4>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <a href="https://www.linkedin.com/in/abhishek-shukla-900112147/" target="_blank"><i
+                          class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="mailto:abshukla109@gmail.com" target="_blank"><i class="fa fa-envelope"
+                          aria-hidden="true"></i></a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-3 col-md-3">
+                            <figure class="snip1515">
+                                <div class="profile-image"><img src="./IMAGES/team/megha.jpg" alt="sample47" /></div>
+                                <figcaption>
+                                    <h3>Megha Pal</h3>
+                                    <h4>Cultural Secretary</h4>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <a href="https://www.linkedin.com/in/megha-pal-92a2231a4/" target="_blank"><i
+                          class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="mailto:mpal6501@gmail.com" target="_blank"><i class="fa fa-envelope"
+                          aria-hidden="true"></i></a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+                    <!----------------3rd row------------>
+                    <div class="row container text-center row3">
+                        <div class="col-3 col-md-3">
+                            <figure class="snip1515">
+                                <div class="profile-image"><img src="./IMAGES/team/gadghe.jpg" alt="sample47" /></div>
+                                <figcaption>
+                                    <h3>Abhishek Gadge</h3>
+                                    <h4>Sports Secretery</h4>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <a href="https://www.linkedin.com/in/abhishek-gadge-91b65919a/" target="_blank"><i
+                          class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="mailto:abhishekgadge97@gmail.com" target="_blank"><i class="fa fa-envelope"
+                          aria-hidden="true"></i></a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-3 col-md-3">
+                            <figure class="snip1515 ">
+                                <div class="profile-image"><img src="./IMAGES/team/harshada.jpg" alt="sample47" /></div>
+                                <figcaption>
+                                    <h3>Harshada Nikam</h3>
+                                    <h4>Sports Secretery</h4>
+                                    <div class="icons">
+                                        <a href="https://www.linkedin.com/in/harshada-nikam/" target="_blank"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></a>
+                                        <a href="mailto:harshadanikam1802@gmail.com" target="_blank"><i class="fa fa-envelope"
+                        aria-hidden="true"></i></a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-3 col-md-3">
+                            <figure class="snip1515 ">
+                                <div class="profile-image"><img src="./IMAGES/team/utsav.jpg" alt="sample47" /></div>
+                                <figcaption>
+                                    <h3>Utsav Varma</h3>
+                                    <h4> Sports Secretery</h4>
+                                    <div class="icons">
+                                        <a href="https://www.linkedin.com/in/utsav-verma-b2b9921b7" target="_blank"><i
+                        class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a href="mailto:utsavverma291@gmail.com" target="_blank"><i class="fa fa-envelope"
+                        aria-hidden="true"></i></a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-3 col-md-3">
+                            <figure class="snip1515 ">
+                                <div class="profile-image"><img src="./IMAGES/team/shruti.jpg" alt="sample47" /></div>
+                                <figcaption>
+                                    <h3>Shruti Jaigariya</h3>
+                                    <h4>Publicity</h4>
+                                    <div class="icons">
+                                        <a target="_blank" href="https://www.linkedin.com/in/shruti-jaigariya-828126174/" target="_blank"><i
+                        class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        <a target="_blank" href="mailto:riyaljaigariya@gmail.com"><i class="fa fa-envelope"
+                        aria-hidden="true"></i></a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-------------------------Image aces team image parallax 2---------------------->
+        <section class="module parallax parallax-3">
+        </section>
+
+
+        <!--------------------Actual content-----------------intro to all teams-->
+        <h1 class="heading-name text-center" style="color:#660033;font-weight:600;font-family: Raleway;background: white;padding: 28px;" class="text-center">
+            <!-- Events at DYPCOE -->
+            Lets Meet The Other Enthusiastic Teams At ACES !
+        </h1>
+        <section class="module content" style="background: #f2f5f7;margin-top: 0px;">
+            <div class="container">
+                <div class="container px-5 py-2 mx-auto">
+                    <div class="fancy-cards">
+                        <!----------------------Cultural Team Card----------------------------------->
+                        <div class="fancy-card">
+                            <div class="top" style="background: url('./IMAGES/team-cards/art.png');">
+                                <div class="caption">
+                                    <h3 class="title">Cultural Team</h3>
+                                    <a style="font-family: 'Poppins';" href="./HTML/cultural_team.html" class="button">Know More <i
+                      class="fa fa-arrow-circle-right" aria-hidden="true"></i> </a>
+                                </div>
+                            </div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <!-------------------------Technical Team card--------------------------------->
+                        <div class="fancy-card">
+                            <div class="top" style="background: url('./IMAGES/team-cards/aces_team.png');">
+                                <div class="caption">
+                                    <h3 class="title">Technical Team</h3>
+                                    <a style="font-family: 'Poppins';" href="./HTML/technical_team.html" class="button">Know More <i
+                      class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <!---------------------------Event management team------------------------------>
+                        <div class="fancy-card">
+                            <div class="top" style="background: url('./IMAGES/team-cards/e_manage.png');">
+                                <div class="caption">
+                                    <h3 class="title">Event-Management Team</h3>
+                                    <a style="font-family: 'Poppins';" href="./HTML/event_management.html" class="button">Know More <i
+                      class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+
+                        <!-------------------------Sponsorship card-------------------------------------->
+                        <div class="fancy-card">
+                            <div class="top" style="background: url('./IMAGES/team-cards/sponsor.png');">
+                                <div class="caption">
+                                    <h3 class="title">Publicity & Sponsorship Team</h3>
+                                    <a style="font-family: 'Poppins';" href="./HTML/sponsorship_temp.html" class="button">Know More <i
+                      class="fa fa-arrow-circle-right" aria-hidden="true"></i> </a>
+                                </div>
+                            </div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <!-------------------WEb Team card (isme we will add pic of us both) ----->
+                        <div class="fancy-card">
+                            <div class="top" style="background: url('./IMAGES/team-cards/web.png');">
+                                <div class="caption">
+                                    <h3 class="title">Web & Editing Team</h3>
+                                    <a style="font-family: 'Poppins';" href="./HTML/web_team.html" class="button">Know More <i
+                      class="fa fa-arrow-circle-right" aria-hidden="true"></i> </a>
+                                </div>
+                            </div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                        <!------------------------------Sports Team card------------------------->
+                        <div class="fancy-card">
+                            <div class="top" style="background: url('./IMAGES/team-cards/sports.png');">
+                                <div class="caption">
+                                    <h3 class="title">Sports Team</h3>
+                                    <a style="font-family: 'Poppins';" href="./HTML/sports_team.html" class="button">Know More <i
+                      class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="middle"></div>
+                            <div class="bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end of content-------------->
+
+        <!------ALL SET------->
+        <!------------------------------------------NEW responsive FOOTER------------------------>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row" style="margin-bottom: 2%;">
+                    <!-----------------------About aces------------------------------->
+                    <div class="col-sm-12 col-md-4">
+                        <h6 style="font-family: 'Raleway';">About ACES</h6>
+                        <p style="margin-top: 1.5%;" class="text-justify">
+                            Association of Computer Engineering Students (ACES) is a Students' Club of <b><a style="color:#00284d"
+                  target="_blank"
+                  href="https://www.facebook.com/Dept-of-Computer-Engineering-DypcoeAkurdi-Pune-315118802560238">Computer
+                  Engineering Department, DYPCOE</a></b>. This club ensures active participation of students and conduction of various <b>Technical</b> & <b>Cultural</b> events with strong & enthusiastic Management Team.
+                        </p>
+                    </div>
+                    <!------------------------Quick links------------------------------>
+                    <div class="col-xs-6 col-md-3">
+                        <h6 style="font-family: 'Raleway';">Quick Links</h6>
+                        <ul class="footer-links" style="margin-top: 2%;">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#team">ACES Team</a></li>
+                            <li><a href="./HTML/events.html">Events</a></li>
+                            <li><a href="./HTML/contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <!-----------------------address--------------------------->
+                    <div class="col-xs-6 col-md-5">
+                        <h6 style="font-family: 'Raleway';">Address</h6>
+                        <ul class="footer-links" style="margin-top: 2%;">
+                            <li>Dr. D.Y.Patil Pratishthan's D.Y.Patil College of Engineering, Sector 29, Nigdi, Pradhikaran, Pimpri-Chinchwad, near Akurdi Railway Station, Pune, Maharashtra 411044.</li>
+                            <li><i class="fa fa-phone"></i> 020-27653058</li>
+                        </ul>
+                    </div>
+                    <!----------below social media icons------------------------------------------>
+                </div>
+                <hr>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <h6 class="copyright-text">Follow us on:
+                        </h6>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom: 2%;">
+                        <ul class="social-icons">
+                            <li><a class="instagram" target="_blank" href="https://instagram.com/acesdypcoe?igshid=1qm05yug07o4m"><i
+                    class="fa fa-instagram"></i></a></li>
+                            <li><a class="twitter" target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="gmail" target="_blank" href="mailto:acestechnical2020@gmail.com"><i
+                    class="fa fa-envelope"></i></a></li>
+                            <li><a class="github" target="_blank" href="https://github.com/ACES-DYPCOE"><i
+                    class="fa fa-github"></i></a></li>
+                            <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/company/aces-dypcoe/"><i
+                    class="fa fa-linkedin"></i></a></li>
+                            <li><a class="website" target="_blank" href="#"><i class="fa fa-globe"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-----------------Website designers info and copyright-------------------------->
+            <div class="bg-gray-200 name" style="background:#00284d">
+                <div class="container-fluid text-center"><br>
+                    <p class="text-gray-500 text-lg">
+                        <span style="font-size: 15px;">
+              Created by<br><a target="_blank" href="https://www.linkedin.com/in/manasi-wader-2455a0197/"><span
+                  style="color: aquamarine; font-family:Kotta One;font-size: 20px;">Manasi Wader</span></a> & <a target="_blank" href="https://www.linkedin.com/in/maneprajakta/ "><span
+                  style="color: aquamarine; font-family:Kotta One;font-size: 20px;">Prajakta Mane</span></a>
+                        </span>
+                        <br><span style="font-size: 15px;">Copyright © 2020 ACES DYPCOE</span>
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <!---->
+        </footer>
+    </div>
+    <!------------------------------------------END of footer-------------------------------->
+    <script>
+        AOS.init();
+        //preloader javascript
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 1000);
+        }
+
+        function showPage() {
+            document.getElementById("loader-wrapper").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCSxLIuTz1G3bQal4yahgxvRXlnWT9evg4",
+          authDomain: "aces-dypcoeak20.firebaseapp.com",
+          projectId: "aces-dypcoeak20",
+          storageBucket: "aces-dypcoeak20.appspot.com",
+          messagingSenderId: "386047216595",
+          appId: "1:386047216595:web:a45f3b64ebbdcffbc63d26",
+          measurementId: "G-T6RMW0ECY8"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+
+</html>

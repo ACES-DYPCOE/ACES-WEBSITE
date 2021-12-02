@@ -1,0 +1,298 @@
+body {
+  font-family: 'Poppins';
+  margin: 0px 0px 0px 0px;
+}
+
+.container {
+  margin: 0px 0px 0px 0px;
+}
+
+/* Contact Form Styling */
+
+.textcenter {
+  text-align: center;
+}
+
+.section2 {
+  width: 1200px;
+  margin: 25px auto;
+}
+
+.section2 .col2 {
+  width: 48.71%;
+
+}
+
+.section2 .col2.first {
+  float: left;
+}
+
+.section2 .col2.last {
+  float: right;
+}
+
+.section2 .col2.column2 {
+  padding: 0 30px;
+}
+
+.section2 span.collig {
+
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.section2 .sec2addr {
+  display: block;
+  line-height: 26px;
+}
+
+.section2 .sec2addr p:first-child {
+  margin-bottom: 10px;
+}
+
+.section2 .sec2contactform input[type="text"],
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+  padding: 18px;
+  border: 0;
+  background: #EDEDED;
+  margin: 7px 0;
+}
+
+.section2 .sec2contactform textarea {
+  width: 100%;
+  display: block;
+  color: #666;
+  resize: none;
+}
+
+.section2 .sec2contactform input[type="submit"] {
+  padding: 15px 40px;
+  color: #fff;
+  border: 0;
+  background: #0c0c31;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 7px 0;
+  cursor: pointer;
+}
+
+.section2 .sec2contactform h3 {
+  font-weight: normal;
+  margin: 20px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 19px;
+  color: #A44DD8;
+}
+
+/* @media querries */
+
+@media only screen and (max-width: 1266px) {
+  .section2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    padding: 0 30px 70px;
+  }
+
+  .section2 .col2 {
+    width: 100%;
+    display: block;
+  }
+
+  .section2 .col2.first {
+    margin-bottom: 10px;
+  }
+
+  .section2 .col2.column2 {
+    padding: 0;
+  }
+
+  body .sec2map {
+    height: 250px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section2 .sec2addr {
+    font-size: 14px;
+  }
+
+  .section2 .sec2contactform h3 {
+    font-size: 16px;
+  }
+
+  .section2 .sec2contactform input[type="text"],
+  .section2 .sec2contactform input[type="email"],
+  .section2 .sec2contactform textarea {
+    padding: 10px;
+    margin: 3px 0;
+  }
+
+  .section2 .sec2contactform input[type="submit"] {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 2.3rem;
+  text-align: center;
+  width: 100%;
+
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  top: 0;
+  left: -20px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 10px auto;
+  line-height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 70px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+  color: #111;
+}
+
+
+hr {
+  border-color: rgba(255, 255, 255, .8);
+  ;
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 760px) {
+  #contact {
+    height: 1000px;
+  }
+
+  .section-header {
+    font-size: 65px;
+  }
+
+  .direct-contact-container,
+  .form-horizontal {
+    float: none;
+    margin: 10px auto;
+  }
+
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }
+
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  #contact {
+    height: 1200px;
+  }
+
+  .section-header {
+    font-size: 50px;
+  }
+
+  .direct-contact-container,
+  .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .form-control,
+  textarea {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .name,
+  .email,
+  textarea {
+    width: 280px;
+  }
+
+  .contact-list {
+    font-size: 10px;
+  }
+
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 280px;
+  }
+
+  .social-media-list {
+    left: 0;
+  }
+
+  .social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+  }
+
+  .social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+
+}
+
+@media screen and (max-width: 410px) {
+  .send-button {
+    width: 99%;
+  }
+}
